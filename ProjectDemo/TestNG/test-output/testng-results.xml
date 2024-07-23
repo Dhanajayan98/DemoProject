@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[20.00]]>
+    </line>
+    <line>
+      <![CDATA[Price is a displayed]]>
+    </line>
+    <line>
+      <![CDATA[20.00]]>
+    </line>
+    <line>
+      <![CDATA[Price is a displayed]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-28T16:22:48 IST" name="Suite" finished-at="2024-06-28T16:27:27 IST" duration-ms="279182">
+    <groups>
+    </groups>
+    <test started-at="2024-06-28T16:22:48 IST" name="EdgeTest" finished-at="2024-06-28T16:27:07 IST" duration-ms="259705">
+      <class name="AnnotationOfTestNG.AddtoPrice">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:AnnotationOfTestNG.AddtoPrice@3349e9bb]" started-at="2024-06-28T16:22:48 IST" name="openBrowser" finished-at="2024-06-28T16:24:33 IST" duration-ms="105064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@3349e9bb]" started-at="2024-06-28T16:24:33 IST" name="login" finished-at="2024-06-28T16:24:41 IST" duration-ms="8300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addtocart()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@3349e9bb]" started-at="2024-06-28T16:24:41 IST" name="Addtocart" finished-at="2024-06-28T16:25:06 IST" duration-ms="24506" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[20.00]]>
+            </line>
+            <line>
+              <![CDATA[Price is a displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@3349e9bb]" started-at="2024-06-28T16:25:06 IST" name="logout" finished-at="2024-06-28T16:25:08 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@3349e9bb]" started-at="2024-06-28T16:25:08 IST" name="closeBrowser" finished-at="2024-06-28T16:25:43 IST" duration-ms="35695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AnnotationOfTestNG.AddtoPrice -->
+      <class name="AnnotationOfTestNG.AddtoCartBase">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@409bf450]" started-at="2024-06-28T16:25:43 IST" name="openBrowser" finished-at="2024-06-28T16:26:31 IST" duration-ms="47953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@409bf450]" started-at="2024-06-28T16:26:31 IST" name="login" finished-at="2024-06-28T16:26:35 IST" duration-ms="3417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addtocart()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@409bf450]" started-at="2024-06-28T16:26:35 IST" name="Addtocart" finished-at="2024-06-28T16:26:45 IST" duration-ms="9780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@409bf450]" started-at="2024-06-28T16:26:45 IST" name="logout" finished-at="2024-06-28T16:26:47 IST" duration-ms="2023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@409bf450]" started-at="2024-06-28T16:26:47 IST" name="closeBrowser" finished-at="2024-06-28T16:27:07 IST" duration-ms="20598" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AnnotationOfTestNG.AddtoCartBase -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-06-28T16:22:48 IST" name="ChromeTest" finished-at="2024-06-28T16:27:27 IST" duration-ms="279181">
+      <class name="AnnotationOfTestNG.AddtoPrice">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:AnnotationOfTestNG.AddtoPrice@7ec7ffd3]" started-at="2024-06-28T16:22:48 IST" name="openBrowser" finished-at="2024-06-28T16:24:47 IST" duration-ms="119030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@7ec7ffd3]" started-at="2024-06-28T16:24:47 IST" name="login" finished-at="2024-06-28T16:25:17 IST" duration-ms="30694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addtocart()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@7ec7ffd3]" started-at="2024-06-28T16:25:17 IST" name="Addtocart" finished-at="2024-06-28T16:25:23 IST" duration-ms="5356" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[20.00]]>
+            </line>
+            <line>
+              <![CDATA[Price is a displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@7ec7ffd3]" started-at="2024-06-28T16:25:23 IST" name="logout" finished-at="2024-06-28T16:25:28 IST" duration-ms="5643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AnnotationOfTestNG.AddtoPrice@7ec7ffd3]" started-at="2024-06-28T16:25:28 IST" name="closeBrowser" finished-at="2024-06-28T16:25:41 IST" duration-ms="12159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AnnotationOfTestNG.AddtoPrice -->
+      <class name="AnnotationOfTestNG.AddtoCartBase">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@dd8ba08]" started-at="2024-06-28T16:25:41 IST" name="openBrowser" finished-at="2024-06-28T16:27:00 IST" duration-ms="79553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@dd8ba08]" started-at="2024-06-28T16:27:00 IST" name="login" finished-at="2024-06-28T16:27:12 IST" duration-ms="11794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addtocart()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@dd8ba08]" started-at="2024-06-28T16:27:12 IST" name="Addtocart" finished-at="2024-06-28T16:27:21 IST" duration-ms="9080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@dd8ba08]" started-at="2024-06-28T16:27:21 IST" name="logout" finished-at="2024-06-28T16:27:23 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AnnotationOfTestNG.AddtoCartBase@dd8ba08]" started-at="2024-06-28T16:27:23 IST" name="closeBrowser" finished-at="2024-06-28T16:27:27 IST" duration-ms="3365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AnnotationOfTestNG.AddtoCartBase -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
